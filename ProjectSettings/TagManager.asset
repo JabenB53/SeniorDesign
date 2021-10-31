@@ -10,6 +10,8 @@ TagManager:
   - buff
   - Hazard
   - jumpText
+  - LevelButton
+  - PauseMenu
   layers:
   - Default
   - TransparentFX

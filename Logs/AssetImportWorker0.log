@@ -15,11 +15,11 @@ C:/PERSONAL/UnityProjects/SeniorDesign
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60486
+64206
 Successfully changed project path to: C:/PERSONAL/UnityProjects/SeniorDesign
 C:/PERSONAL/UnityProjects/SeniorDesign
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,795 +35,1023 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002722 seconds.
+Registered in 0.002200 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
+- Completed reload, in  0.944 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001248 seconds.
+Registered in 0.000681 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.648 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.2 MB.
-System memory in use after: 60.3 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1586.
-Total: 1.467400 ms (FindLiveObjects: 0.131900 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.229800 ms  DeleteObjects: 0.068500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Level_17.unity
-  artifactKey: Guid(d21c8c4ad4b5b974c8ed4e879c45ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_17.unity using Guid(d21c8c4ad4b5b974c8ed4e879c45ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552cbec1981e3dff0a3205be5c8d2338') in 0.014502 seconds
-  Import took 0.017847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.490100 seconds.
-  path: Assets/Scenes/Level_18.unity
-  artifactKey: Guid(3c1c8eac1007e774cbea6777431cc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_18.unity using Guid(3c1c8eac1007e774cbea6777431cc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3490f8f213d4c337fb4019eb5bc294cb') in 0.003023 seconds
-  Import took 0.005293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Scenes/Level_18.unity
-  artifactKey: Guid(3c1c8eac1007e774cbea6777431cc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_18.unity using Guid(3c1c8eac1007e774cbea6777431cc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3490f8f213d4c337fb4019eb5bc294cb') in 0.002873 seconds
-  Import took 0.004345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.331585 seconds.
-  path: Assets/Scenes/Level_20.unity
-  artifactKey: Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_20.unity using Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d47c3447a6822c8faf7029d4b0d930') in 0.002789 seconds
-  Import took 0.005928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2058.289176 seconds.
-  path: Assets/Scenes/Level_19.unity
-  artifactKey: Guid(810aeb14336509349ad373dba316c439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_19.unity using Guid(810aeb14336509349ad373dba316c439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fc497a577ad0bfdc39c483e3fdf4f4') in 0.003537 seconds
-  Import took 0.009038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.630746 seconds.
-  path: Assets/Scenes/Level_20.unity
-  artifactKey: Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_20.unity using Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5288231a062708304876eaae739f8c74') in 0.002635 seconds
-  Import took 0.004524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2232.996461 seconds.
-  path: Assets/Scripts/CameraFollow.cs
-  artifactKey: Guid(a8ada15d5b353084fa8a8070dd568dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraFollow.cs using Guid(a8ada15d5b353084fa8a8070dd568dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528362fce6b581b42c033a2d22a59a72') in 0.023370 seconds
-  Import took 0.025416 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001037 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.706 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.0 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1589.
-Total: 1.331100 ms (FindLiveObjects: 0.115700 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.113300 ms  DeleteObjects: 0.071500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000885 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.0 MB.
-System memory in use after: 59.1 MB.
+Unloading 1141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.7 MB.
+System memory in use after: 72.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1592.
-Total: 1.262800 ms (FindLiveObjects: 0.110500 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.083100 ms  DeleteObjects: 0.038500 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 1.346800 ms (FindLiveObjects: 0.114300 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.134700 ms  DeleteObjects: 0.065800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41bf01a8e221b2a1b86088f4f8a1af0') in 0.086446 seconds
+  Import took 0.088069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.745074 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35e5cb9b8858f93ad7d39abc93b697f') in 0.020376 seconds
+  Import took 0.022007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.283056 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2273dc6bcb8781dd6bbb5dada6bb64') in 0.022541 seconds
+  Import took 0.024198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.428630 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143046fdb7d968138ffcd064eb81ac1c') in 0.018747 seconds
+  Import took 0.020521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.486713 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207917fd80c4e278ff2f18df08d33e99') in 0.019244 seconds
+  Import took 0.021202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.801912 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4786d0581b67d8b01532f5565094bf0') in 0.019159 seconds
+  Import took 0.020795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.956969 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cb92f73fc40664da98f1418e1af9e9') in 0.019738 seconds
+  Import took 0.021591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003721 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cb92f73fc40664da98f1418e1af9e9') in 0.019319 seconds
+  Import took 0.020952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.968478 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae0496b6265591ac2fd67b425c9f012') in 0.019781 seconds
+  Import took 0.021477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.287350 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b5228c8d31cee787f79d7cbb6fce72') in 0.019387 seconds
+  Import took 0.021104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.437383 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45076ccdbd515ff1630f9f759a9eca5') in 0.019690 seconds
+  Import took 0.021358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.294594 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822494bb5f9b279e06c8f448ff409e97') in 0.003358 seconds
+  Import took 0.004839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001227 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822494bb5f9b279e06c8f448ff409e97') in 0.002171 seconds
+  Import took 0.003442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.189079 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b137a49095aa77db1e5edaac9d8276d') in 0.019735 seconds
+  Import took 0.021387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.892719 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9d2f9164bdc819976e41a97fde3907') in 0.019928 seconds
+  Import took 0.021755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.359110 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3421c77b86bae729f06757dc2b58d5') in 0.020116 seconds
+  Import took 0.021832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.019216 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd74f348d13648dbf8b25e475b4238') in 0.020075 seconds
+  Import took 0.021765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.586314 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cfd82e1fe08047f2147b5a4c5ce2a4') in 0.020168 seconds
+  Import took 0.021862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.094191 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667c8d028c87197bca55d4c245116429') in 0.020943 seconds
+  Import took 0.023122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.612470 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f25885a023a29d221685dd58f1a24bb') in 0.019357 seconds
+  Import took 0.020999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.116999 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45bf29d47cd3efeed9f4068f250d1ea') in 0.019397 seconds
+  Import took 0.021132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.007820 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee744db3d93a8dc8ce5482ee790e869d') in 0.019444 seconds
+  Import took 0.021197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.005466 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f824fa78165784f7505aaa3a9006ca') in 0.019374 seconds
+  Import took 0.021120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.632141 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f1935d8bfd2083091496c6d398481e') in 0.019810 seconds
+  Import took 0.022098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.014275 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517cb65919977a8f69b98821cee4d7a0') in 0.019765 seconds
+  Import took 0.021504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.390288 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8e29e8e1d7e24c7520f7d1f560e1ab') in 0.019171 seconds
+  Import took 0.020872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.237649 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335b3b089ee07cc24085a28803fd0ed2') in 0.019451 seconds
+  Import took 0.021219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.991655 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e7564c2ba6caceaa79f8fcd883ee52') in 0.020129 seconds
+  Import took 0.021821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.591370 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73472878e5bf9986dc4e601eb92d99c0') in 0.019121 seconds
+  Import took 0.020797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.736211 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc35a85b621ab0774870b7e535d3a7c1') in 0.019780 seconds
+  Import took 0.021486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.586214 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a8fdb09e4bab0246585c71c549d6a') in 0.019151 seconds
+  Import took 0.020833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.897203 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e29de171c4adde816d17307554eada') in 0.019310 seconds
+  Import took 0.021014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.157348 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac76aa6410416115ae56685825fcfc0') in 0.018749 seconds
+  Import took 0.020585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.845642 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36097a68e081fa3853d2ec25c247847') in 0.020327 seconds
+  Import took 0.022078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.096895 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f96db4f0861897950db0ceea25177dc') in 0.018796 seconds
+  Import took 0.020452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.224999 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96436374bc8e67fa42cd2d87f5a9bccd') in 0.020061 seconds
+  Import took 0.021773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.616905 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8454e4892a19b5cfa8d3e53879c74c16') in 0.019890 seconds
+  Import took 0.021585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.277596 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdfc20834f812a707f0419fe479b5d7') in 0.018808 seconds
+  Import took 0.020530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.607628 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a794ffec468bb6254e0cca8d132049b') in 0.019822 seconds
+  Import took 0.021454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.456467 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21db6975e0a9657c2b6f19ed85991d01') in 0.018849 seconds
+  Import took 0.020535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.260691 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe8a2c3cb6305efa46eaf430108627b') in 0.019334 seconds
+  Import took 0.020992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.509333 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82452f03b1ca83f26b05a5650e8119f7') in 0.019557 seconds
+  Import took 0.021234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.476617 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf1668cbc535709f7c809072ea843a5') in 0.019550 seconds
+  Import took 0.021218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.005879 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887e34c4d656f025f92b7e74d35d417f') in 0.019058 seconds
+  Import took 0.020715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.006969 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3e33462bf18ed00851f12be786b42b') in 0.019400 seconds
+  Import took 0.021098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.439312 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce2e753d44a0c5b8db7439d1b63d7b3') in 0.018987 seconds
+  Import took 0.020628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.854810 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a1f6512f391b9c5e5c9ade660da32e') in 0.018724 seconds
+  Import took 0.020370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.228110 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cf3c5fe4eafa8a65181411cbe61ba8') in 0.019871 seconds
+  Import took 0.021522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.826697 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e3b5a191d522af48eb2fa1fe7a1b3a') in 0.018880 seconds
+  Import took 0.020578 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001006 seconds.
+Registered in 0.000663 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.0 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1595.
-Total: 1.365300 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.160800 ms  DeleteObjects: 0.039400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000924 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.0 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1598.
-Total: 1.264300 ms (FindLiveObjects: 0.106400 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.089400 ms  DeleteObjects: 0.037700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000842 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.0 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1601.
-Total: 1.370400 ms (FindLiveObjects: 0.114900 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.180100 ms  DeleteObjects: 0.044900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 520.984918 seconds.
-  path: Assets/Scenes/Level_9.unity
-  artifactKey: Guid(ec841646b98bc2647bab44b36162fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_9.unity using Guid(ec841646b98bc2647bab44b36162fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23580b09c81105c83179eacbd170892b') in 0.023127 seconds
-  Import took 0.025489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.362650 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dcb69b73a43bbbb0277dbe1efbdb4a') in 0.018164 seconds
-  Import took 0.020213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.672032 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8f7219806a0d963e0a690c95019e7c') in 0.003856 seconds
-  Import took 0.006977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.620605 seconds.
-  path: Assets/Scenes/Level_1.unity
-  artifactKey: Guid(319619675e09a2d46963e222256c1351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_1.unity using Guid(319619675e09a2d46963e222256c1351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a740e48bf7b3e72ec081f803b698c8') in 0.002823 seconds
-  Import took 0.005645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.934568 seconds.
-  path: Assets/Scenes/Level_2.unity
-  artifactKey: Guid(3f53927dbc732a9488efa33854588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_2.unity using Guid(3f53927dbc732a9488efa33854588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6963d6a62fc90f9f7ffb6ee99c8635') in 0.003128 seconds
-  Import took 0.004862 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000934 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.699 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1604.
-Total: 1.382600 ms (FindLiveObjects: 0.129200 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.179300 ms  DeleteObjects: 0.040100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.822517 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9cadef82feca4ba478bb2cf94c77c6') in 0.020844 seconds
-  Import took 0.023622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.583635 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d11ca75ef307f3b7721d32a43dc82c') in 0.007471 seconds
-  Import took 0.009266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.620940 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c46c7390914731c59603864915449') in 0.003925 seconds
-  Import took 0.006112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.489247 seconds.
-  path: Assets/Scenes/Level_2.unity
-  artifactKey: Guid(3f53927dbc732a9488efa33854588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_2.unity using Guid(3f53927dbc732a9488efa33854588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8507c164e6e7040b5235cfbbc518934f') in 0.002783 seconds
-  Import took 0.005015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Scenes/Level_2.unity
-  artifactKey: Guid(3f53927dbc732a9488efa33854588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_2.unity using Guid(3f53927dbc732a9488efa33854588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8507c164e6e7040b5235cfbbc518934f') in 0.002561 seconds
-  Import took 0.005540 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000878 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.655 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1607.
-Total: 1.549000 ms (FindLiveObjects: 0.129700 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.313900 ms  DeleteObjects: 0.040800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001020 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.651 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
-Total: 1.339700 ms (FindLiveObjects: 0.126800 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.137600 ms  DeleteObjects: 0.041400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.487396 seconds.
-  path: Assets/Scenes/Level_3.unity
-  artifactKey: Guid(0c1e54d6efe2c1d4eb7f57c58962b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_3.unity using Guid(0c1e54d6efe2c1d4eb7f57c58962b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49754019b5e1a127e550bc667e9629f6') in 0.011393 seconds
-  Import took 0.012961 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000918 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.649 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1613.
-Total: 1.294700 ms (FindLiveObjects: 0.107800 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.116600 ms  DeleteObjects: 0.039500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.483465 seconds.
-  path: Assets/Scenes/Level_4.unity
-  artifactKey: Guid(eca8cdf74a17f324da7a31424048e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_4.unity using Guid(eca8cdf74a17f324da7a31424048e8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c38ef0cf7bc864127412fa09fee7b17') in 0.011754 seconds
-  Import took 0.014157 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000807 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  0.645 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.2 MB.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 1.877100 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.231900 ms  DeleteObjects: 0.461000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.636520 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(755b8926458394a40bcfb320116bbe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(755b8926458394a40bcfb320116bbe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4823eef120f965c19b2f5fc95a71ea63') in 0.020373 seconds
+  Import took 0.021830 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 1.266200 ms (FindLiveObjects: 0.109900 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.082900 ms  DeleteObjects: 0.042400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000637 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.608 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1613.
+Total: 1.257800 ms (FindLiveObjects: 0.107400 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.073400 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1616.
-Total: 1.413200 ms (FindLiveObjects: 0.114400 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.220400 ms  DeleteObjects: 0.047300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1903.364823 seconds.
-  path: Assets/Scenes/Level_5.unity
-  artifactKey: Guid(67a356043a13a0c4aba2f9dfdc99d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_5.unity using Guid(67a356043a13a0c4aba2f9dfdc99d927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a724f7852031f8b24dee0145222bf0') in 0.010507 seconds
-  Import took 0.012413 seconds .
+Total: 1.355200 ms (FindLiveObjects: 0.119700 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.154600 ms  DeleteObjects: 0.049400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000795 seconds.
+Registered in 0.000597 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.636 seconds
+- Completed reload, in  0.618 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.2 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1619.
-Total: 1.390100 ms (FindLiveObjects: 0.109500 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.209000 ms  DeleteObjects: 0.042300 ms)
+Total: 1.305100 ms (FindLiveObjects: 0.112700 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.116600 ms  DeleteObjects: 0.044600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1213.168100 seconds.
-  path: Assets/Scenes/Level_6.unity
-  artifactKey: Guid(27f642f0deab246428a95f096325a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_6.unity using Guid(27f642f0deab246428a95f096325a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eb2b1bea35b24ca12f2492f6b146d1') in 0.009751 seconds
-  Import took 0.012024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.919177 seconds.
-  path: Assets/Scenes/Level_20.unity
-  artifactKey: Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_20.unity using Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992a4c049fd82b795e1edd909e65927a') in 0.002715 seconds
-  Import took 0.004883 seconds .
+  Time since last request: 243.327965 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91355be57ceecc2ca086cd74ae686da6') in 0.073916 seconds
+  Import took 0.075689 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000955 seconds.
+Registered in 0.000601 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.623 seconds
+- Completed reload, in  0.611 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1622.
+Total: 1.329600 ms (FindLiveObjects: 0.122400 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.128000 ms  DeleteObjects: 0.048700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.605792 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(68abbcc9e094e5b4caeee56c30abb7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(68abbcc9e094e5b4caeee56c30abb7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e898d4f968309b446ccc1e47e821ae24') in 0.011172 seconds
+  Import took 0.012774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.884290 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13605ba206175c27f9af23b3e9a00656') in 0.001998 seconds
+  Import took 0.003597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002929 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13605ba206175c27f9af23b3e9a00656') in 0.001693 seconds
+  Import took 0.003138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.717306 seconds.
+  path: Assets/Scenes/Level_1.unity
+  artifactKey: Guid(319619675e09a2d46963e222256c1351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_1.unity using Guid(319619675e09a2d46963e222256c1351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fcf9c329d94f0ec00d360ddebfda04') in 0.002467 seconds
+  Import took 0.004203 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1622.
-Total: 1.311000 ms (FindLiveObjects: 0.106200 ms CreateObjectMapping: 0.029100 ms MarkObjects: 1.130800 ms  DeleteObjects: 0.044100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 218.419241 seconds.
-  path: Assets/Scenes/Level_7.unity
-  artifactKey: Guid(a961cbed22982dc49a16147586ad59c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_7.unity using Guid(a961cbed22982dc49a16147586ad59c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f859577174a1cebe2f489e1f2579b9') in 0.010615 seconds
-  Import took 0.013825 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000803 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.633 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.1 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1625.
-Total: 1.288100 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.112600 ms  DeleteObjects: 0.039500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 181.940189 seconds.
-  path: Assets/Scenes/Level_8.unity
-  artifactKey: Guid(f87d1728ba45d5541b2349629071a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_8.unity using Guid(f87d1728ba45d5541b2349629071a433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a31820a737cf7de9ffbf1df69808b7') in 0.010731 seconds
-  Import took 0.014686 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000845 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1628.
-Total: 1.312200 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.106600 ms  DeleteObjects: 0.037700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000777 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1631.
-Total: 1.329200 ms (FindLiveObjects: 0.147400 ms CreateObjectMapping: 0.031700 ms MarkObjects: 1.112500 ms  DeleteObjects: 0.036700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.985608 seconds.
-  path: Assets/Scenes/Level_9.unity
-  artifactKey: Guid(ec841646b98bc2647bab44b36162fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_9.unity using Guid(ec841646b98bc2647bab44b36162fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bc044e510a40c8b520dcb818846204') in 0.010375 seconds
-  Import took 0.012666 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000857 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1634.
-Total: 1.305900 ms (FindLiveObjects: 0.108200 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.126300 ms  DeleteObjects: 0.040400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.661043 seconds.
-  path: Assets/Scenes/Level_10.unity
-  artifactKey: Guid(187b2595c3f6b644f95fb9a9961028f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_10.unity using Guid(187b2595c3f6b644f95fb9a9961028f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a076a1f26ce81ce7652bf4acc77eb7') in 0.011046 seconds
-  Import took 0.012828 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000784 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.633 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1637.
-Total: 1.311400 ms (FindLiveObjects: 0.111300 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.130100 ms  DeleteObjects: 0.039500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000774 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.630 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.2 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1640.
-Total: 1.314400 ms (FindLiveObjects: 0.110900 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.130200 ms  DeleteObjects: 0.041600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1625.
+Total: 1.360600 ms (FindLiveObjects: 0.107600 ms CreateObjectMapping: 0.028800 ms MarkObjects: 1.176000 ms  DeleteObjects: 0.047400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 417.549948 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0479321f6e42f1becd56b07f766d8591') in 0.067573 seconds
+  Import took 0.070023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.939701 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fa8635e1c022407d12f5c9789f9380') in 0.019572 seconds
+  Import took 0.021500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.393929 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bd1aa49151da3ce095227ec0badc0e') in 0.019690 seconds
+  Import took 0.021398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.482051 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83265fa1936482ac96c9ae8bf3480de') in 0.019036 seconds
+  Import took 0.021517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.034769 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b93c392e6c0b78161244bc03fa4a16b') in 0.020013 seconds
+  Import took 0.021745 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000851 seconds.
+Registered in 0.000687 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1628.
+Total: 1.340500 ms (FindLiveObjects: 0.113300 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.144200 ms  DeleteObjects: 0.051300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.698836 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b95e0f2a5ddb993b7f9a392b3708c45') in 0.069308 seconds
+  Import took 0.071521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.243779 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9f1f4e4826529011a1e6c478b089da') in 0.021157 seconds
+  Import took 0.023221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.496177 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9981bfcac77839d8106822a5ddf67866') in 0.019042 seconds
+  Import took 0.020874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.957513 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d5f92386347239039684a4e39c0dcf') in 0.019784 seconds
+  Import took 0.021692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.834951 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f2e52ec9430e69a13f6ab90778a925') in 0.019811 seconds
+  Import took 0.021474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.830053 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9173e639ee1aac0caf65c66a465d13e') in 0.020452 seconds
+  Import took 0.022158 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 1.317000 ms (FindLiveObjects: 0.106700 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.133800 ms  DeleteObjects: 0.046700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.677434 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5f566c9d7f988b37fcc91ff1101885') in 0.065312 seconds
+  Import took 0.066985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 1.326700 ms (FindLiveObjects: 0.111000 ms CreateObjectMapping: 0.029100 ms MarkObjects: 1.130700 ms  DeleteObjects: 0.054900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 287.941581 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbedc5b49ed38bf6dab544d750c5180') in 0.066860 seconds
+  Import took 0.069512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.807555 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afffe91f602638c66528ee6659a0abdc') in 0.020586 seconds
+  Import took 0.022291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.958773 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd928c706290b7c720a1e9b345b25a95a') in 0.019262 seconds
+  Import took 0.021051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.825938 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6914e5900d5379eb8cc0a6cf61f07a67') in 0.018878 seconds
+  Import took 0.020533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.927845 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba00701e2ec32307696626b4d2c9977') in 0.019591 seconds
+  Import took 0.021273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.933749 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f11be90d540b84d7bc2619e14364f9') in 0.019028 seconds
+  Import took 0.021003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.042438 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b832c4a430a4cae6986778830fe02b3') in 0.019719 seconds
+  Import took 0.021427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.051578 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6436677975f4147d4ac6aaf6756825') in 0.020531 seconds
+  Import took 0.022217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.183722 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1987b1618a6a29402a2c3d16c394d94') in 0.019798 seconds
+  Import took 0.021719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.456218 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cc81934777e06a757295d923fc16d9') in 0.019723 seconds
+  Import took 0.021447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.368389 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f3c1df83d438da0c6f834f2bbf533b') in 0.020606 seconds
+  Import took 0.022329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003832 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f3c1df83d438da0c6f834f2bbf533b') in 0.019224 seconds
+  Import took 0.020948 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.614 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 1.343200 ms (FindLiveObjects: 0.115500 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.138400 ms  DeleteObjects: 0.051700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.646 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.2 MB.
-System memory in use after: 59.3 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1643.
-Total: 1.451500 ms (FindLiveObjects: 0.117200 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.260500 ms  DeleteObjects: 0.039700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 863.036682 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(bbdf009c74962d349a475499531a30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(bbdf009c74962d349a475499531a30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e1d5582a9e244475cb6cdb51ce44d5') in 0.086818 seconds
-  Import took 0.088997 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1640.
+Total: 1.684500 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.091600 ms MarkObjects: 1.300900 ms  DeleteObjects: 0.061900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.613641 seconds.
-  path: Assets/Materials/Green.mat
-  artifactKey: Guid(bbdf009c74962d349a475499531a30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Green.mat using Guid(bbdf009c74962d349a475499531a30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b56d5b78e6075c7beb5c48dbcdcc526') in 0.015574 seconds
-  Import took 0.017534 seconds .
+  Time since last request: 413.712849 seconds.
+  path: Assets/Scenes/Level_2.unity
+  artifactKey: Guid(3f53927dbc732a9488efa33854588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_2.unity using Guid(3f53927dbc732a9488efa33854588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8ba2b7064eaabc0227c084495d0ddc') in 0.013665 seconds
+  Import took 0.015382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.558925 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(aac4f3832bdaa9542a4044eb5a2840c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418067fb6c1208404fba9f1ba43f8ea2') in 0.060014 seconds
+  Import took 0.061880 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000846 seconds.
+Registered in 0.000614 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.643 seconds
+- Completed reload, in  0.626 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 1.464200 ms (FindLiveObjects: 0.130500 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.242000 ms  DeleteObjects: 0.057400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.6 MB.
-System memory in use after: 62.6 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1686.
-Total: 1.302600 ms (FindLiveObjects: 0.124500 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.107600 ms  DeleteObjects: 0.038800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2701.510142 seconds.
-  path: Assets/Scenes/Level_16.unity
-  artifactKey: Guid(c4424eaed33c397439e25d480a5ceec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_16.unity using Guid(c4424eaed33c397439e25d480a5ceec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db7f5bb36852087bbf3b24a238272a6') in 0.012389 seconds
-  Import took 0.014316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.136665 seconds.
-  path: Assets/Scenes/Level_20.unity
-  artifactKey: Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_20.unity using Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b616e7f58def3dae617461d3edfaecdb') in 0.003152 seconds
-  Import took 0.005437 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 1.323600 ms (FindLiveObjects: 0.111800 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.135700 ms  DeleteObjects: 0.045000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000783 seconds.
+Registered in 0.000646 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.639 seconds
+- Completed reload, in  0.619 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.6 MB.
-System memory in use after: 62.6 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1689.
-Total: 1.488600 ms (FindLiveObjects: 0.131800 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.279000 ms  DeleteObjects: 0.042900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5545.744441 seconds.
-  path: Assets/Scripts/CameraFollow.cs
-  artifactKey: Guid(a8ada15d5b353084fa8a8070dd568dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraFollow.cs using Guid(a8ada15d5b353084fa8a8070dd568dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e426c2f3b71a01ac99d02932d7fe3e9b') in 0.005059 seconds
-  Import took 0.008252 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 1.319000 ms (FindLiveObjects: 0.113600 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.129900 ms  DeleteObjects: 0.045000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000806 seconds.
+Registered in 0.000612 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.630 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.6 MB.
-System memory in use after: 62.7 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 1.315000 ms (FindLiveObjects: 0.115200 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.127600 ms  DeleteObjects: 0.040900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.215528 seconds.
-  path: Assets/Scripts/CameraFollow.cs
-  artifactKey: Guid(a8ada15d5b353084fa8a8070dd568dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraFollow.cs using Guid(a8ada15d5b353084fa8a8070dd568dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0fa7a0ab5cf43c3d873d6441795e08') in 0.003793 seconds
-  Import took 0.005480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.557436 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(45b77fa00a8882e4d9e30bdab1a5a853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b569e9cf396e74ef429acb2799fc1808') in 0.020422 seconds
-  Import took 0.022539 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 1.539800 ms (FindLiveObjects: 0.121900 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.333700 ms  DeleteObjects: 0.052800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000825 seconds.
+Registered in 0.000616 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.671 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.6 MB.
-System memory in use after: 62.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
-Total: 1.568000 ms (FindLiveObjects: 0.122300 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.351200 ms  DeleteObjects: 0.055600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000787 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.632 seconds
+- Completed reload, in  0.627 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 62.6 MB.
-System memory in use after: 62.7 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1698.
-Total: 1.319000 ms (FindLiveObjects: 0.114800 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.131400 ms  DeleteObjects: 0.042500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1857.896887 seconds.
-  path: Assets/Scenes/Level_18.unity
-  artifactKey: Guid(3c1c8eac1007e774cbea6777431cc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_18.unity using Guid(3c1c8eac1007e774cbea6777431cc453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e1f152653b740e9313f0cf260eb49b') in 0.013286 seconds
-  Import took 0.015197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.800942 seconds.
-  path: Assets/Scenes/Level_20.unity
-  artifactKey: Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_20.unity using Guid(7976c388264242d41bb086d9e4b7f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5072897b76d8a8fe8bf9ad24d14552aa') in 0.002549 seconds
-  Import took 0.005262 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1655.
+Total: 1.321000 ms (FindLiveObjects: 0.111500 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.133800 ms  DeleteObjects: 0.044900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
