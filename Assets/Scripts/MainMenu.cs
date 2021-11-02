@@ -14,9 +14,12 @@ public class MainMenu : MonoBehaviour
     public GameObject levelSelectMenu;
     public Button returnToMainButton;
 
+    public Button[] levelList; // an array of Buttons
+
     // Start is called before the first frame update
     void Start()
     {
+        levelList = levelSelectMenu.GetComponentsInChildren<Button>();
         mainMenu.SetActive(true); // make sure the main menu is visible
         levelSelectMenu.SetActive(false); // hide the level select menu
 
@@ -37,6 +40,15 @@ public class MainMenu : MonoBehaviour
     {
         mainMenu.SetActive(false); // deactivate and hide the main menu
         levelSelectMenu.SetActive(true); // activate and show the level select menu
+
+        // only activate levels that they've cleared
+        int x = SaveSystem.LoadProgress(); // find out how many level's they've cleared
+        foreach (Button item in levelList)
+        {
+            if (int.Parse(item.GetComponent<Text>().text) > x+1) // if the number on the button is greater than the last level they've gained access to ()
+                item.interactable = false; // disable the button
+        }
+
     }
 
     void QuitTheGame()
