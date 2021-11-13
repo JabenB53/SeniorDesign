@@ -7,11 +7,17 @@ using TMPro;
 
 public class MainMenu : MonoBehaviour
 {
+    // Main Menu Buttons
     public GameObject mainMenu;
     public Button startGameButton;
     public Button levelSelectButton;
     public Button quitGameButton;
-
+    // Delete Save Buttons
+    public GameObject choiceButtons;
+    public Button deleteSaveButton;
+    public Button yesButton;
+    public Button noButton;
+    // Level Select Buttons
     public GameObject levelSelectMenu;
     public Button returnToMainButton;
 
@@ -21,11 +27,14 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         mainMenu.SetActive(true); // make sure the main menu is visible
+        choiceButtons.SetActive(false); // hide the yes/no buttons
         levelSelectMenu.SetActive(false); // hide the level select menu
 
         startGameButton.GetComponent<Button>().onClick.AddListener(StartTheGame); // when the "Start Game" button is pressed
         levelSelectButton.GetComponent<Button>().onClick.AddListener(GoToLevelSelect); // when the "Level Select" button is pressed
         quitGameButton.GetComponent<Button>().onClick.AddListener(QuitTheGame); // when the "Start Game" button is pressed
+
+        deleteSaveButton.GetComponent<Button>().onClick.AddListener(DeleteSave); // when the Delete Save Button is pressed
 
         returnToMainButton.GetComponent<Button>().onClick.AddListener(ReturnToMain); // when the "Return" button is pressed
     }
@@ -56,6 +65,22 @@ public class MainMenu : MonoBehaviour
         Application.Quit(); // Quit the Game
     }
 
+    void DeleteSave()
+    {
+        choiceButtons.SetActive(true); // show yes/no buttons
+    }
+
+    public void pickNo()
+    {
+        choiceButtons.SetActive(false); // hide yes/no buttons
+    }
+
+    public void pickYes()
+    {
+        SaveSystem.DeleteProgress(); // Delete Save File
+        choiceButtons.SetActive(false); // hide yes/no buttons
+    }
+
     public void LevelSelect(string levelName) // this is added to each button as an OnClickEvent
     {
         SceneManager.LoadScene(levelName); // load a different level depending on which button is pressed
@@ -66,5 +91,6 @@ public class MainMenu : MonoBehaviour
         mainMenu.SetActive(true); // activate the main menu again
         levelSelectMenu.SetActive(false); // deactivate and hide the level select menu
     }
+
 
 }

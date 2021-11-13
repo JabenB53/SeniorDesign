@@ -15,12 +15,6 @@ public class SlimeBall : MonoBehaviour
         playerInfo = player.GetComponent<CharacterMovement>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void OnTriggerEnter(Collider other) // wait until the Player touches the slimeball
     {
         if (other.tag == "Player" && !collided) //when it collides with the Player for the first time

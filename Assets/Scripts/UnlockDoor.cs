@@ -15,12 +15,6 @@ public class UnlockDoor : MonoBehaviour
         playerInfo = player.GetComponent<CharacterMovement>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player" && playerInfo.keys > 0)

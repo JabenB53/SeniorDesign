@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16158 MB
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16154 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/PERSONAL/UnityProjects/SeniorDesign
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57348
+62518
 Successfully changed project path to: C:/PERSONAL/UnityProjects/SeniorDesign
 C:/PERSONAL/UnityProjects/SeniorDesign
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 21.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,99 +35,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002795 seconds.
+Registered in 0.002179 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
+- Completed reload, in  1.483 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000917 seconds.
+Registered in 0.000722 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.684 seconds
+- Completed reload, in  0.657 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1143 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 72.7 MB.
 System memory in use after: 72.8 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 1.860600 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.060900 ms MarkObjects: 1.455600 ms  DeleteObjects: 0.153100 ms)
+Total: 1.386700 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.157300 ms  DeleteObjects: 0.067900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8654020ac03036b58276f4b0eb9af7b7') in 0.015982 seconds
-  Import took 0.018138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.604575 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dae6ead2a4c9efdd346413e39319a05') in 0.002091 seconds
-  Import took 0.005024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.950531 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3bbfce741fd2d902f4eecd8642f10a') in 0.002119 seconds
-  Import took 0.003887 seconds .
+  path: Assets/Scenes/Level_6.unity
+  artifactKey: Guid(27f642f0deab246428a95f096325a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_6.unity using Guid(27f642f0deab246428a95f096325a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd682995527ad303aecd646bb3dd632ab') in 0.009858 seconds
+  Import took 0.014894 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000587 seconds.
+Registered in 0.000692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  0.616 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.4 MB.
 System memory in use after: 71.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
-Total: 1.626900 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.374700 ms  DeleteObjects: 0.055900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.880826 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f8f608a8f076e4f7b6fb1afc7314c1') in 0.004005 seconds
-  Import took 0.006645 seconds .
+Total: 1.276100 ms (FindLiveObjects: 0.114900 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.084500 ms  DeleteObjects: 0.045000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000650 seconds.
+Registered in 0.000681 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
+- Completed reload, in  0.614 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -136,20 +112,12 @@ System memory in use before: 71.4 MB.
 System memory in use after: 71.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.264900 ms (FindLiveObjects: 0.107100 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.086000 ms  DeleteObjects: 0.041800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.595102 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(bcda081943ceaa24293facfb90aeed60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad807d48555f009d297d80c4a21e9c7') in 0.003378 seconds
-  Import took 0.005409 seconds .
+Total: 1.299300 ms (FindLiveObjects: 0.115300 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.101700 ms  DeleteObjects: 0.050500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000608 seconds.
+Registered in 0.000683 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
@@ -157,132 +125,1345 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.621 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.4 MB.
 System memory in use after: 71.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.321800 ms (FindLiveObjects: 0.110700 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.136700 ms  DeleteObjects: 0.042500 ms)
+Total: 1.297600 ms (FindLiveObjects: 0.116000 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.100800 ms  DeleteObjects: 0.046600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 725.666963 seconds.
+  path: Assets/Scenes/Non-Build Scenes
+  artifactKey: Guid(b7beab366459c944eb9966275c0f4055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Non-Build Scenes using Guid(b7beab366459c944eb9966275c0f4055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a00194be5cf415aeb59703ceaf00f44') in 0.003800 seconds
+  Import took 0.009901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.509139 seconds.
+  path: Assets/Scenes/The Ending.unity
+  artifactKey: Guid(72589c96d1ed6754bb9489e54f83d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/The Ending.unity using Guid(72589c96d1ed6754bb9489e54f83d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b8da904f0a5672f9c71de88904e3a1') in 0.013739 seconds
+  Import took 0.017425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.192265 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.121483 seconds
+  Import took 0.125304 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000775 seconds.
+Registered in 0.000786 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.640 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.455900 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.249200 ms  DeleteObjects: 0.049300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000648 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
+- Completed reload, in  0.616 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
+System memory in use before: 74.9 MB.
+System memory in use after: 74.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 1.356700 ms (FindLiveObjects: 0.119400 ms CreateObjectMapping: 0.031100 ms MarkObjects: 1.153700 ms  DeleteObjects: 0.051400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 1.292600 ms (FindLiveObjects: 0.112200 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.106600 ms  DeleteObjects: 0.042800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.453505 seconds.
+  path: Assets/Scenes/The Ending.unity
+  artifactKey: Guid(72589c96d1ed6754bb9489e54f83d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/The Ending.unity using Guid(72589c96d1ed6754bb9489e54f83d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89906808c12e8918243ffe6ce6eae7c2') in 0.010124 seconds
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.347232 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99846f5a5cef2b9fb3476a6a84d35918') in 0.021845 seconds
+  Import took 0.024534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.148375 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Ambient_Occlusion.tga
+  artifactKey: Guid(a0806bb3dcc9f3a44960230550d12fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Ambient_Occlusion.tga using Guid(a0806bb3dcc9f3a44960230550d12fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fe8931656b55b05b2d7b7e972c385d') in 0.135184 seconds
+  Import took 0.138360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Diffuse.tga
+  artifactKey: Guid(9e158ebb3c19e804cadedb175e517834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Diffuse.tga using Guid(9e158ebb3c19e804cadedb175e517834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8951a261b744ad689a2d17c5260489') in 0.014229 seconds
+  Import took 0.016275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236915 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Height.tga
+  artifactKey: Guid(7e9cda9a75aa37743a9c0432d621f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Height.tga using Guid(7e9cda9a75aa37743a9c0432d621f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a8799b2d893abef71b8f0e330a759a') in 0.012363 seconds
+  Import took 0.016587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Normal.tga
+  artifactKey: Guid(d4cdc5832edd17e478e5645939ee8f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Normal.tga using Guid(d4cdc5832edd17e478e5645939ee8f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dceb2d0ba84e5dc2e679b238092ef2') in 0.063098 seconds
+  Import took 0.064969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326591 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Specular.tga
+  artifactKey: Guid(28f100771d7acc242895a7cc1c235235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_01/Dirt_01_Specular.tga using Guid(28f100771d7acc242895a7cc1c235235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f48ffdc6bac6ca2d0e53058e95b2662') in 0.042509 seconds
+  Import took 0.044326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Ambient_Occlusion.tga
+  artifactKey: Guid(c35713e3729269544884d7f26b2658df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Ambient_Occlusion.tga using Guid(c35713e3729269544884d7f26b2658df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910c715554425b554d75616075cbf60a') in 0.010292 seconds
+  Import took 0.012750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.374032 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Diffuse.tga
+  artifactKey: Guid(a7088409c17b7a54da83133f2ee90fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Diffuse.tga using Guid(a7088409c17b7a54da83133f2ee90fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd472942a46f0312a745c249a01b8da8c') in 0.008272 seconds
+  Import took 0.010665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Height.tga
+  artifactKey: Guid(f89736705aca9c944ad61a8948285374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Height.tga using Guid(f89736705aca9c944ad61a8948285374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a493c09fb29d317878184e0ce6f1215') in 0.007583 seconds
+  Import took 0.009264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022762 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Normal.tga
+  artifactKey: Guid(79a2bc3551deb19468b908f89739f113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Normal.tga using Guid(79a2bc3551deb19468b908f89739f113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0006c81e53353fc20caaa00fc9a1bb1b') in 0.011316 seconds
+  Import took 0.013109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Specular.tga
+  artifactKey: Guid(713a144c6dc50be4a8b2ea2ded8aad57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_02/Dirt_02_Specular.tga using Guid(713a144c6dc50be4a8b2ea2ded8aad57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c9aded8dc5ece0f7a019504403678e') in 0.015055 seconds
+  Import took 0.017833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.336753 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Ambient_Occlusion.tga
+  artifactKey: Guid(3804b1c99ab4d58448249398ff85bef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Ambient_Occlusion.tga using Guid(3804b1c99ab4d58448249398ff85bef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80297bf1ee8edb974ce4943857249d99') in 0.009508 seconds
+  Import took 0.012372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Diffuse.tga
+  artifactKey: Guid(8eeb3b6627af1a3498d3b8bee02ea4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Diffuse.tga using Guid(8eeb3b6627af1a3498d3b8bee02ea4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf5c3e336351626ce6264b19f4cecf3') in 0.013491 seconds
+  Import took 0.014943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045059 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Height.tga
+  artifactKey: Guid(65dfd75617a9fb94caed44745723e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Height.tga using Guid(65dfd75617a9fb94caed44745723e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc8e615838e88726b92ec884d5fd415') in 0.009232 seconds
+  Import took 0.011561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Normal.tga
+  artifactKey: Guid(8d321f3abed936e4f87fc851cd6c7322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Normal.tga using Guid(8d321f3abed936e4f87fc851cd6c7322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b654c5a2ab95e44d2561466cfb38e4') in 0.011276 seconds
+  Import took 0.013043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037310 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Specular.tga
+  artifactKey: Guid(83fd2fa6350044746956c21ee5d3e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_03/Dirt_03_Specular.tga using Guid(83fd2fa6350044746956c21ee5d3e12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c99e494f9750693f46dfeb4c107a1ae') in 0.010978 seconds
+  Import took 0.012900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302689 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Ambient_Occlusion.tga
+  artifactKey: Guid(72b40574860db4a4cb5e3d1617a0fddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Ambient_Occlusion.tga using Guid(72b40574860db4a4cb5e3d1617a0fddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16e12c24d226219c8f37daf4b689bef') in 0.009024 seconds
+  Import took 0.010814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031476 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Diffuse.tga
+  artifactKey: Guid(2a95d8a7367ed224cadb9493713e4eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Diffuse.tga using Guid(2a95d8a7367ed224cadb9493713e4eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac70fc171d4be9a50a7cb65ed1531bf0') in 0.011421 seconds
+  Import took 0.013245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Height.tga
+  artifactKey: Guid(025174bbdda0e1f40918f8917f81947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Height.tga using Guid(025174bbdda0e1f40918f8917f81947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c01edd385dee4cf391c4a34be1e787a') in 0.008584 seconds
+  Import took 0.011380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.343688 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Normal.tga
+  artifactKey: Guid(e9cce297bbba9b64dbb7603e4567e00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Normal.tga using Guid(e9cce297bbba9b64dbb7603e4567e00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f06652c248fbf8ece7c181cd3999338') in 0.011691 seconds
+  Import took 0.013531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Specular.tga
+  artifactKey: Guid(b673678874053b040a64d91728a08320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_04/Dirt_04_Specular.tga using Guid(b673678874053b040a64d91728a08320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbe49dd57f6f4d4bdcd5a9ff5934880') in 0.012364 seconds
+  Import took 0.018517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.340557 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Ambient_Occlusion.tga
+  artifactKey: Guid(3ef82d8e4f2f1794699559346c9d9ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Ambient_Occlusion.tga using Guid(3ef82d8e4f2f1794699559346c9d9ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f85e7e6cefe0b1809b651a1ed416c02') in 0.008903 seconds
+  Import took 0.011092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Diffuse.tga
+  artifactKey: Guid(eb8964a6952b8ed4491fb4b7428b7657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Diffuse.tga using Guid(eb8964a6952b8ed4491fb4b7428b7657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614f78d0bd9cab708421c310570703dd') in 0.010742 seconds
+  Import took 0.012848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040868 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Height.tga
+  artifactKey: Guid(99487f45821b91d4f9f34ed4c23b1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Height.tga using Guid(99487f45821b91d4f9f34ed4c23b1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c3375ab91f8d9d20212de8d1b95ecc') in 0.011286 seconds
+  Import took 0.013209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Normal.tga
+  artifactKey: Guid(9d4c96afe49f70e499988ab690d2547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Normal.tga using Guid(9d4c96afe49f70e499988ab690d2547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad771380eed7e0df0e174f70591a9db') in 0.011302 seconds
+  Import took 0.012977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305177 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Specular.tga
+  artifactKey: Guid(bf3266a675dc4f64db454726d484a172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_05/Dirt_05_Specular.tga using Guid(bf3266a675dc4f64db454726d484a172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f78e0cb478f73aeb26453c5126418ae') in 0.010793 seconds
+  Import took 0.013169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042336 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Ambient_Occlusion.tga
+  artifactKey: Guid(909b24fa6a8e3f34b9d37af7945c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Ambient_Occlusion.tga using Guid(909b24fa6a8e3f34b9d37af7945c134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119573174e70e1a89afaf04155dbd5af') in 0.117320 seconds
+  Import took 0.119289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Diffuse.tga
+  artifactKey: Guid(8e460172994995d498aa9c0fae033d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Diffuse.tga using Guid(8e460172994995d498aa9c0fae033d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f7c924f875692f7b309ee427d3737e') in 0.020963 seconds
+  Import took 0.022488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Height.tga
+  artifactKey: Guid(fba9bfe4204aa4e4cb5554d6d84c03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Height.tga using Guid(fba9bfe4204aa4e4cb5554d6d84c03f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a7c7ff89ed26ee63a7e918f0d03776') in 0.045206 seconds
+  Import took 0.047036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258762 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Normal.tga
+  artifactKey: Guid(503deaa96d3c6be4b826a7e12fb2bbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Normal.tga using Guid(503deaa96d3c6be4b826a7e12fb2bbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7bab197ea608c968cb34002d9921c3') in 0.123398 seconds
+  Import took 0.125714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Specular.tga
+  artifactKey: Guid(967775f94f985d64ca6fe3d6b41c68a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_06/Dirt_06_Specular.tga using Guid(967775f94f985d64ca6fe3d6b41c68a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262c599af390b66db1f33c174f09434d') in 0.091622 seconds
+  Import took 0.097139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233176 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Ambient_Occlusion.tga
+  artifactKey: Guid(c0482b0640b09bb49ad565bad4c8cd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Ambient_Occlusion.tga using Guid(c0482b0640b09bb49ad565bad4c8cd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac6d6fb6524429af9d3e78d6978d285') in 0.109426 seconds
+  Import took 0.111116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Normal.tga
+  artifactKey: Guid(7a01ab7b507773743b11916c4fb92c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Normal.tga using Guid(7a01ab7b507773743b11916c4fb92c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e595a9e67534cdb0d932152430c35c14') in 0.072671 seconds
+  Import took 0.074148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Specular.tga
+  artifactKey: Guid(691d38b56b6dceb4ab563af711c9e387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Specular.tga using Guid(691d38b56b6dceb4ab563af711c9e387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e325deaa1ed83628c3b3a38d3e0123') in 0.018172 seconds
+  Import took 0.019947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Height.tga
+  artifactKey: Guid(544ecc4ab726b3349aa20614d5a723fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Height.tga using Guid(544ecc4ab726b3349aa20614d5a723fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563a5b869b99e9c157b9225b72a2f253') in 0.063089 seconds
+  Import took 0.065699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Diffuse.tga
+  artifactKey: Guid(7aaeed37297c03145beb1e34f14233d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_07/Dirt_07_Diffuse.tga using Guid(7aaeed37297c03145beb1e34f14233d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d78b0d50b6191e0d9fc7fdcd73bb9b1') in 0.053933 seconds
+  Import took 0.055304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107928 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Ambient_Occlusion.tga
+  artifactKey: Guid(95ae6c9b9bd3ea04a9f7989d32a83392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Ambient_Occlusion.tga using Guid(95ae6c9b9bd3ea04a9f7989d32a83392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611f3d6af62f526c30d05cdebd98d57b') in 0.017132 seconds
+  Import took 0.018905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030688 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Diffuse.tga
+  artifactKey: Guid(babedf2c7eb52ed49a35a694be0f728e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Diffuse.tga using Guid(babedf2c7eb52ed49a35a694be0f728e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a4626ba21579dd3ddf66b75f0d5e5b') in 0.022219 seconds
+  Import took 0.024018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Height.tga
+  artifactKey: Guid(a9b5d5f0c555a624aa4e8968e7445631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Height.tga using Guid(a9b5d5f0c555a624aa4e8968e7445631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b879e4f037406cca84269b29264e303e') in 0.015172 seconds
+  Import took 0.016667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.293761 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Normal.tga
+  artifactKey: Guid(5b568a142f864c64a86f734fe4aff336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Normal.tga using Guid(5b568a142f864c64a86f734fe4aff336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed7b38bc3d2db868a74f894abe17490') in 0.019269 seconds
+  Import took 0.021267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Specular.tga
+  artifactKey: Guid(0d734d95ef6919e428577aa0dc1b5d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_08/Dirt_08_Specular.tga using Guid(0d734d95ef6919e428577aa0dc1b5d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9b5eb6429d3c03f11818a653fe7a84') in 0.013092 seconds
+  Import took 0.015526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.328044 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Ambient_Occlusion.tga
+  artifactKey: Guid(55f11b5ff86f43a4499316206886996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Ambient_Occlusion.tga using Guid(55f11b5ff86f43a4499316206886996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7647364774e61507e3efc25ea77c3115') in 0.012452 seconds
+  Import took 0.014667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Diffuse.tga
+  artifactKey: Guid(478a37ebd6f506f4ea170b8319d1fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Diffuse.tga using Guid(478a37ebd6f506f4ea170b8319d1fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb33015bd9f787009c70165fe50938c') in 0.015640 seconds
+  Import took 0.017626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015525 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Height.tga
+  artifactKey: Guid(69dab9b1e117f9143aaadce1b3510ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Height.tga using Guid(69dab9b1e117f9143aaadce1b3510ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06f3d86e4b01922af88d52a36e60ac0') in 0.015272 seconds
+  Import took 0.017096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Normal.tga
+  artifactKey: Guid(3207b37bcd0a2b14a9b44358ac1ee976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Normal.tga using Guid(3207b37bcd0a2b14a9b44358ac1ee976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8600d4ad89ead1093b667d6622452e') in 0.066181 seconds
+  Import took 0.067698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.215156 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Specular.tga
+  artifactKey: Guid(9a0d1ceb6acbad744bf5830b5eed3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_09/Dirt_09_Specular.tga using Guid(9a0d1ceb6acbad744bf5830b5eed3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad5e36497a3dbdc0dd4ec5cde62ceb9') in 0.064628 seconds
+  Import took 0.066371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Ambient_Occlusion.tga
+  artifactKey: Guid(17a0d2e2132a80649a3b83754604f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Ambient_Occlusion.tga using Guid(17a0d2e2132a80649a3b83754604f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1824e3be00a28de4afb4e4b2529a984') in 0.016021 seconds
+  Import took 0.017719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015528 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Diffuse.tga
+  artifactKey: Guid(36fc0def9a8bc0941aff4deaac264611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Diffuse.tga using Guid(36fc0def9a8bc0941aff4deaac264611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d919e722ec1b98d91bbb7367c6903a3') in 0.016870 seconds
+  Import took 0.018837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Height.tga
+  artifactKey: Guid(ecd1f872328eb5c46b1541d01b31aec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Height.tga using Guid(ecd1f872328eb5c46b1541d01b31aec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327813aff891c788acd094368578cc96') in 0.013422 seconds
+  Import took 0.014994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Diffuse.tga
+  artifactKey: Guid(36fc0def9a8bc0941aff4deaac264611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Diffuse.tga using Guid(36fc0def9a8bc0941aff4deaac264611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d919e722ec1b98d91bbb7367c6903a3') in 0.014894 seconds
+  Import took 0.016466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.253391 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Normal.tga
+  artifactKey: Guid(ff1fb87c7466ffe4184e68da72aaf01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Normal.tga using Guid(ff1fb87c7466ffe4184e68da72aaf01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5000fa336dc6ba6a05a14275c2ad1911') in 0.017047 seconds
+  Import took 0.018711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Specular.tga
+  artifactKey: Guid(85f986d007433644cbe7676c38cf2b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_10/Dirt_10_Specular.tga using Guid(85f986d007433644cbe7676c38cf2b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa85dda7102b84a2131a55eed8d502f') in 0.013135 seconds
+  Import took 0.014611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041920 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Ambient_Occlusion.tga
+  artifactKey: Guid(9368fc5a7e97c8f44af2b9fbdc85d8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Ambient_Occlusion.tga using Guid(9368fc5a7e97c8f44af2b9fbdc85d8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9357c34f0ef2168d9cc5fe44171fa762') in 0.044923 seconds
+  Import took 0.047774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Diffuse.tga
+  artifactKey: Guid(39394a3365e856e45ac8b54056c0ee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Diffuse.tga using Guid(39394a3365e856e45ac8b54056c0ee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608f5fc83bae810681502eeb9e7fb7f2') in 0.042619 seconds
+  Import took 0.044028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198717 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Height.tga
+  artifactKey: Guid(1ff0747608fab1949b88428fbff13a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Height.tga using Guid(1ff0747608fab1949b88428fbff13a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd697fa2d8a3b611885d37319be2628a') in 0.013045 seconds
+  Import took 0.015546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Normal.tga
+  artifactKey: Guid(c6e761cd1a4d0b64fb0cd63804ff4d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Normal.tga using Guid(c6e761cd1a4d0b64fb0cd63804ff4d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3133304a2f4ef2d202ba1a3460c926') in 0.020665 seconds
+  Import took 0.022121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011406 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Specular.tga
+  artifactKey: Guid(743bba16a93d7784fb1fd2569ddeca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_11/Dirt_11_Specular.tga using Guid(743bba16a93d7784fb1fd2569ddeca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bbefb280fc166307225af725575fa5') in 0.065563 seconds
+  Import took 0.068194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Ambient_Occlusion.tga
+  artifactKey: Guid(82d7673a137c395489be8376cda224f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Ambient_Occlusion.tga using Guid(82d7673a137c395489be8376cda224f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7083c51ce651c8bf362504c515e8f2eb') in 0.017575 seconds
+  Import took 0.019088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302981 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Diffuse.tga
+  artifactKey: Guid(860827a348cd106498b117e36486ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Diffuse.tga using Guid(860827a348cd106498b117e36486ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2729c27691ccc9201a3a0819c878451d') in 0.054994 seconds
+  Import took 0.056722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Height.tga
+  artifactKey: Guid(db44333fc1f8d1f4d9f561cec4a3a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Height.tga using Guid(db44333fc1f8d1f4d9f561cec4a3a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924964c41931483cbce0bdbe5c9ff85c') in 0.018138 seconds
+  Import took 0.019640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Specular.tga
+  artifactKey: Guid(857378c789028584daa713700bf25f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Specular.tga using Guid(857378c789028584daa713700bf25f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6575a5444f4a66c1b44fe4279d7d19b') in 0.026987 seconds
+  Import took 0.029302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Normal.tga
+  artifactKey: Guid(e22f241abd04d694ea4dc34b9b575cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_12/Dirt_12_Normal.tga using Guid(e22f241abd04d694ea4dc34b9b575cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e66ea29a88003c6ef5aa4adfa151da') in 0.062455 seconds
+  Import took 0.063952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401640 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Ambient_Occlusion.tga
+  artifactKey: Guid(94bb1c72bb1ba1a43b768b65367805a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Ambient_Occlusion.tga using Guid(94bb1c72bb1ba1a43b768b65367805a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b0fdebab1ba3112a5090ae58379d6a') in 0.013430 seconds
+  Import took 0.015990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Diffuse.tga
+  artifactKey: Guid(6a1850291eda9dd44afe879d115ab420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Diffuse.tga using Guid(6a1850291eda9dd44afe879d115ab420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6fd9b222356a896177b5d888519764') in 0.057233 seconds
+  Import took 0.059294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Height.tga
+  artifactKey: Guid(e0ce149ab419f044db96cb33ae522cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Height.tga using Guid(e0ce149ab419f044db96cb33ae522cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b607e738fa29e503f69070abed7de56e') in 0.070396 seconds
+  Import took 0.072054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Normal.tga
+  artifactKey: Guid(b9d0d5083a9be7d4ba5892df4af0b3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Normal.tga using Guid(b9d0d5083a9be7d4ba5892df4af0b3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de50ed354814674807d027d3409eefce') in 0.087330 seconds
+  Import took 0.088696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156682 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Specular.tga
+  artifactKey: Guid(807fd52f2385cb84a804a2e844732845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_13/Dirt_13_Specular.tga using Guid(807fd52f2385cb84a804a2e844732845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fddc07af40725cd74503fd68dec99fd') in 0.102346 seconds
+  Import took 0.104111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Ambient_Occlusion.tga
+  artifactKey: Guid(564c1da40b3345844aa10939a0f87431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Ambient_Occlusion.tga using Guid(564c1da40b3345844aa10939a0f87431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5b22d6fa6a081eba53ffea7d049eae') in 0.042618 seconds
+  Import took 0.044084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.202486 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Diffuse.tga
+  artifactKey: Guid(e3f08e0bda66e9442b6efe317283c4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Diffuse.tga using Guid(e3f08e0bda66e9442b6efe317283c4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a72889dabdffe8a86703480ef5b54b2') in 0.051508 seconds
+  Import took 0.053195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Normal.tga
+  artifactKey: Guid(dd69417aa5e64ad4ab2bf331fb3ce7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Normal.tga using Guid(dd69417aa5e64ad4ab2bf331fb3ce7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2053e88c721b6f09f020cda31e971c22') in 0.040680 seconds
+  Import took 0.042178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Height.tga
+  artifactKey: Guid(449af5ef913932646abc3856744c28a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Height.tga using Guid(449af5ef913932646abc3856744c28a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7176da8f583df0cae09632a16cd057') in 0.074945 seconds
+  Import took 0.077044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Specular.tga
+  artifactKey: Guid(9bed3b43b4119804dab3d8f53a882681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_14/Dirt_14_Specular.tga using Guid(9bed3b43b4119804dab3d8f53a882681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f57e91768a38805d55ebff69a707176') in 0.039953 seconds
+  Import took 0.041372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176551 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Ambient_Occlusion.tga
+  artifactKey: Guid(23f785cedba65714a8bb6ecdd6c44c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Ambient_Occlusion.tga using Guid(23f785cedba65714a8bb6ecdd6c44c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574e1ef3dfb4fb1fb2dcf99800421e2e') in 0.053814 seconds
+  Import took 0.055792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Diffuse.tga
+  artifactKey: Guid(b62a0fd844a392f438c88ab901d0122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Diffuse.tga using Guid(b62a0fd844a392f438c88ab901d0122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ce10a677c2b5bd255354d183f38a81') in 0.032556 seconds
+  Import took 0.034202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.297245 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Height.tga
+  artifactKey: Guid(593395e409b822742bf2ff7bc1f5c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Height.tga using Guid(593395e409b822742bf2ff7bc1f5c077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf52bb41366ff26dc7971bf9d3bcd162') in 0.064889 seconds
+  Import took 0.067021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Specular.tga
+  artifactKey: Guid(7e0600d5a8a9daa4a8329c0df0002b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Specular.tga using Guid(7e0600d5a8a9daa4a8329c0df0002b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8f1a4ddccf292017f928b8506b6263') in 0.013598 seconds
+  Import took 0.015090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Normal.tga
+  artifactKey: Guid(ea32a402987cb384fa12853586358f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_15/Dirt_15_Normal.tga using Guid(ea32a402987cb384fa12853586358f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f1dd759c2a970118027bda517bcae9') in 0.018538 seconds
+  Import took 0.020338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278883 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Ambient_Occlusion.tga
+  artifactKey: Guid(d8a9102c3e5ca8840baabc2c6f998656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Ambient_Occlusion.tga using Guid(d8a9102c3e5ca8840baabc2c6f998656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d684b4d59c62be1dfec0e6fc0bb64d') in 0.016035 seconds
+  Import took 0.017985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063567 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Diffuse.tga
+  artifactKey: Guid(7aa3192f41c7cf34da53613a4614cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Diffuse.tga using Guid(7aa3192f41c7cf34da53613a4614cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec8ec035c918bc17e331770e29f19a6') in 0.011826 seconds
+  Import took 0.013408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Height.tga
+  artifactKey: Guid(5dbf19bde119bb445b2b59b3ef9e6f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Height.tga using Guid(5dbf19bde119bb445b2b59b3ef9e6f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13364c2b19e61f269a8c17d0a3248063') in 0.013566 seconds
+  Import took 0.015580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.289620 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Normal.tga
+  artifactKey: Guid(aec4633f50d67a84aad07cdbb1139133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Normal.tga using Guid(aec4633f50d67a84aad07cdbb1139133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fe76632ad4010849b84e5a8fd6ba09') in 0.019159 seconds
+  Import took 0.021779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Specular.tga
+  artifactKey: Guid(acac0b1ff14be9345a0686a86a465e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_16/Dirt_16_Specular.tga using Guid(acac0b1ff14be9345a0686a86a465e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc312dbdde174baf1bae7c7f7817e9e') in 0.011520 seconds
+  Import took 0.013185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387828 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Ambient_Occlusion.tga
+  artifactKey: Guid(59dde4f8f9b1a584081e41e6fe95580f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Ambient_Occlusion.tga using Guid(59dde4f8f9b1a584081e41e6fe95580f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474089370485f28acee59560bf21f30d') in 0.011538 seconds
+  Import took 0.013292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Diffuse.tga
+  artifactKey: Guid(11e841fd4b46b314d80e58a23b3e6f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Diffuse.tga using Guid(11e841fd4b46b314d80e58a23b3e6f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae4528db6807762b1aea22a09886fd') in 0.040374 seconds
+  Import took 0.042068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029983 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Height.tga
+  artifactKey: Guid(d2d625e81ce64b44ead34503f0fd9140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Height.tga using Guid(d2d625e81ce64b44ead34503f0fd9140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3322bc5839cc59c4be291539b7ac94cf') in 0.019575 seconds
+  Import took 0.021187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Normal.tga
+  artifactKey: Guid(0a5f0b0c2a6c0a54c9f13c03813e14ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Normal.tga using Guid(0a5f0b0c2a6c0a54c9f13c03813e14ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a165ef3893cd9c9d0da07d4477d9ed') in 0.084538 seconds
+  Import took 0.085944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.231264 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Specular.tga
+  artifactKey: Guid(750cc4760f3bb34458590fe11d1cf2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_17/Dirt_17_Specular.tga using Guid(750cc4760f3bb34458590fe11d1cf2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8215960bcdebdcdebb59983030f652e') in 0.027497 seconds
+  Import took 0.029221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056819 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Ambient_Occlusion.tga
+  artifactKey: Guid(60d6244a08ed4e34cbd0a86805ce34c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Ambient_Occlusion.tga using Guid(60d6244a08ed4e34cbd0a86805ce34c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0775eee537c24ce21aa55f9eb62c07') in 0.119985 seconds
+  Import took 0.121876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168643 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Diffuse.tga
+  artifactKey: Guid(787de820ac2bef14ca26d9f7ff7e0cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Diffuse.tga using Guid(787de820ac2bef14ca26d9f7ff7e0cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25fda349fec5e3d0a4d9d005ee0df4d') in 0.071432 seconds
+  Import took 0.073257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Specular.tga
+  artifactKey: Guid(eb2ecf1249b772e40857db96f63517f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Specular.tga using Guid(eb2ecf1249b772e40857db96f63517f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4fd2b3b97824e025f05503eb7fa5a1') in 0.019794 seconds
+  Import took 0.021384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Height.tga
+  artifactKey: Guid(3a8cbb5f860612e429cba78f8b269e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Height.tga using Guid(3a8cbb5f860612e429cba78f8b269e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09603fa543060fbcc9cef6d7456d90f') in 0.012224 seconds
+  Import took 0.014060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Normal.tga
+  artifactKey: Guid(1e35f4e50fb467042ba2bed7c09e845f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_18/Dirt_18_Normal.tga using Guid(1e35f4e50fb467042ba2bed7c09e845f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7e9da7dbd06f4ac092b04e02782256') in 0.019724 seconds
+  Import took 0.021622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.255946 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Ambient_Occlusion.tga
+  artifactKey: Guid(0426509f190fb634997b5e214965a03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Ambient_Occlusion.tga using Guid(0426509f190fb634997b5e214965a03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a97a189df5127bef04ec7e2c230cd53') in 0.058213 seconds
+  Import took 0.059837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Diffuse.tga
+  artifactKey: Guid(0ded80828a21db340a66052614a03025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Diffuse.tga using Guid(0ded80828a21db340a66052614a03025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2422540c08dc90c381df549c883cdbf7') in 0.036804 seconds
+  Import took 0.038271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Normal.tga
+  artifactKey: Guid(7a08f20ade6c11f4dac0b18acdb34b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Normal.tga using Guid(7a08f20ade6c11f4dac0b18acdb34b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e6a0b470a2ae74116029ef606cb9e0') in 0.033884 seconds
+  Import took 0.035350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Height.tga
+  artifactKey: Guid(1296a94b05d64f24992b947ac0afa92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Height.tga using Guid(1296a94b05d64f24992b947ac0afa92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f256424e35b531fab0a91684e7841895') in 0.050831 seconds
+  Import took 0.052289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156666 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Specular.tga
+  artifactKey: Guid(1776cf691cf1e5f45b4de331ca06b4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_19/Dirt_19_Specular.tga using Guid(1776cf691cf1e5f45b4de331ca06b4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f781110f59f96d8c19e5d47329434cb') in 0.040271 seconds
+  Import took 0.042094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Ambient_Occlusion.tga
+  artifactKey: Guid(14151b0ef3a90ed409d95edd4c861442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Ambient_Occlusion.tga using Guid(14151b0ef3a90ed409d95edd4c861442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c698ac14a636c5878788fce1576ac1') in 0.047917 seconds
+  Import took 0.049446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Diffuse.tga
+  artifactKey: Guid(c46f7e69dbb700b4db2500ade9ef5cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Diffuse.tga using Guid(c46f7e69dbb700b4db2500ade9ef5cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca502f05d0bd684da82d7e519b2a0b23') in 0.012083 seconds
+  Import took 0.015750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Height.tga
+  artifactKey: Guid(afa85ec89e9b97e46b8e0497e2e35a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Height.tga using Guid(afa85ec89e9b97e46b8e0497e2e35a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6358e1234d1520623a81d767441f941') in 0.013281 seconds
+  Import took 0.015166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246802 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Normal.tga
+  artifactKey: Guid(ba4281c819a9d3746a5fab0996d67773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Normal.tga using Guid(ba4281c819a9d3746a5fab0996d67773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2827a380ce2558a11654fd7a787de5a') in 0.074298 seconds
+  Import took 0.076126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Ambient_Occlusion.tga
+  artifactKey: Guid(2c638f13943dc2a4f919b51c5ce42115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Ambient_Occlusion.tga using Guid(2c638f13943dc2a4f919b51c5ce42115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a00681bd5ec143fe4234f9780e027f') in 0.015086 seconds
+  Import took 0.016585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Diffuse.tga
+  artifactKey: Guid(a71a4e313c7ae0f438a146738d851245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Diffuse.tga using Guid(a71a4e313c7ae0f438a146738d851245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb18259408067a863d0888e28b436f9') in 0.071568 seconds
+  Import took 0.073038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Specular.tga
+  artifactKey: Guid(6c85ebbf3be8b1443a290406563cb2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_20/Dirt_20_Specular.tga using Guid(6c85ebbf3be8b1443a290406563cb2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1ad1b42e724e95e6324d6c2cbeb489') in 0.035184 seconds
+  Import took 0.036759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138882 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Height.tga
+  artifactKey: Guid(2aa2f8a6ac5d2a442b9bb855c5c5d618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Height.tga using Guid(2aa2f8a6ac5d2a442b9bb855c5c5d618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df01d316ac322d48120fe12b69370e4c') in 0.028470 seconds
+  Import took 0.030239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Normal.tga
+  artifactKey: Guid(c1794a05e6495a14eacd31bb257c8cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Normal.tga using Guid(c1794a05e6495a14eacd31bb257c8cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ea1cb5a92ed7b1558f32a24afa0293') in 0.051054 seconds
+  Import took 0.052596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Ambient_Occlusion.tga
+  artifactKey: Guid(97d4085506194084e9bb2bc03ee12f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Ambient_Occlusion.tga using Guid(97d4085506194084e9bb2bc03ee12f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e8e740c2c728381d709694cf03bc04') in 0.048254 seconds
+  Import took 0.049885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Specular.tga
+  artifactKey: Guid(75085d2368ffa7e4db3729f354a8f67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_21/Dirt_21_Specular.tga using Guid(75085d2368ffa7e4db3729f354a8f67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefed9ec639a5b597b318053cc273d6d') in 0.017250 seconds
+  Import took 0.018645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197634 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Diffuse.tga
+  artifactKey: Guid(094b5208ba189164c8b0e7c05a5b4b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Diffuse.tga using Guid(094b5208ba189164c8b0e7c05a5b4b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda86409bcd9ac9b1bac331b412337dd') in 0.025209 seconds
+  Import took 0.028297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Specular.tga
+  artifactKey: Guid(4cb94e5165812ea44a744100957da3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Specular.tga using Guid(4cb94e5165812ea44a744100957da3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c050a2b1ce8e76cf7ada883d964a35a2') in 0.011978 seconds
+  Import took 0.013720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Normal.tga
+  artifactKey: Guid(d356d14f407939d4fa493598af96c1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Normal.tga using Guid(d356d14f407939d4fa493598af96c1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b776f2707969d46d8f0f87f73377455c') in 0.056723 seconds
+  Import took 0.058513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Height.tga
+  artifactKey: Guid(62730029f911d38499fc2177b18d61f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_22/Dirt_22_Height.tga using Guid(62730029f911d38499fc2177b18d61f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214c98569a60cefad44e25e8b870b3e6') in 0.011870 seconds
+  Import took 0.014019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.175057 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Ambient_Occlusion.tga
+  artifactKey: Guid(962ea4e0f8174af459b2c509f13aec5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Ambient_Occlusion.tga using Guid(962ea4e0f8174af459b2c509f13aec5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a808cc880733f6554044ce4fd5259a') in 0.052840 seconds
+  Import took 0.054509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Diffuse.tga
+  artifactKey: Guid(44d4d9c6a33c1814a97913323da2c5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Diffuse.tga using Guid(44d4d9c6a33c1814a97913323da2c5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee200cf9ae33c8437e80567568800038') in 0.070146 seconds
+  Import took 0.071573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Ambient_Occlusion.tga
+  artifactKey: Guid(a627aeecdf036414392a58edb482ad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Ambient_Occlusion.tga using Guid(a627aeecdf036414392a58edb482ad53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a30df8c121a499daf578f13e77d2a31') in 0.050682 seconds
+  Import took 0.052104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Height.tga
+  artifactKey: Guid(2faed3ff8093d6e43aa28800394cbf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Height.tga using Guid(2faed3ff8093d6e43aa28800394cbf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4185600dd6bb6335d5b80b8a3cd57341') in 0.014038 seconds
+  Import took 0.015858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Normal.tga
+  artifactKey: Guid(4471e8240372d7a4d9bdd2885ef0a843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Normal.tga using Guid(4471e8240372d7a4d9bdd2885ef0a843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974f7ac8dcb74dddfba57868c7879b84') in 0.062021 seconds
+  Import took 0.063547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Specular.tga
+  artifactKey: Guid(e494f0e7eca2e3f46b929a6d4e0fb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Specular.tga using Guid(e494f0e7eca2e3f46b929a6d4e0fb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5d0df72fc173a50a18c1dd988ecb3e') in 0.022682 seconds
+  Import took 0.024761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004511 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Specular.tga
+  artifactKey: Guid(e494f0e7eca2e3f46b929a6d4e0fb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_23/Dirt_23_Specular.tga using Guid(e494f0e7eca2e3f46b929a6d4e0fb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5d0df72fc173a50a18c1dd988ecb3e') in 0.011668 seconds
+  Import took 0.013300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037977 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Diffuse.tga
+  artifactKey: Guid(3e3b4c62b74e1724b869a500062109cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Diffuse.tga using Guid(3e3b4c62b74e1724b869a500062109cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459894e1a1c721ef645c02ce1852a745') in 0.013588 seconds
+  Import took 0.015399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Height.tga
+  artifactKey: Guid(007280cd516d9904ca27936e30607077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Height.tga using Guid(007280cd516d9904ca27936e30607077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a522f9593ed301067ff78784685b8c') in 0.152743 seconds
+  Import took 0.154179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Normal.tga
+  artifactKey: Guid(826d93d971adc4542b9ae1a13df7b79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Normal.tga using Guid(826d93d971adc4542b9ae1a13df7b79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab2ec131d7aa2825c55830b73dace26') in 0.057470 seconds
+  Import took 0.059273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Specular.tga
+  artifactKey: Guid(ccf2c9de8dcf8c743ad949b7909e49d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_24/Dirt_24_Specular.tga using Guid(ccf2c9de8dcf8c743ad949b7909e49d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c41f813c1e9bac72e65b127ac88eca') in 0.034619 seconds
+  Import took 0.036025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049948 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Ambient_Occlusion.tga
+  artifactKey: Guid(ea3202067223acf4582955bc167fd37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Ambient_Occlusion.tga using Guid(ea3202067223acf4582955bc167fd37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2130985cddfba3e6aab3e2e69e226200') in 0.024489 seconds
+  Import took 0.026104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Normal.tga
+  artifactKey: Guid(1fee671a7128bbe43adc304a9984353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Normal.tga using Guid(1fee671a7128bbe43adc304a9984353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bd54bd4bc5fb604951fafbae0887ea') in 0.020737 seconds
+  Import took 0.022208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Diffuse.tga
+  artifactKey: Guid(af391b53dd76b43458bbab645712155c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Diffuse.tga using Guid(af391b53dd76b43458bbab645712155c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfe5e2cf8779f68d549bcf7c8e3f2fe') in 0.013236 seconds
+  Import took 0.014896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Height.tga
+  artifactKey: Guid(351bf0e0d9790fd4d9141443506989af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Height.tga using Guid(351bf0e0d9790fd4d9141443506989af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e3f5e268f56d863847d5c6f9744b03') in 0.012469 seconds
+  Import took 0.014030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244707 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Specular.tga
+  artifactKey: Guid(0a486987d748bd141a01b868cd3219b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_25/Dirt_25_Specular.tga using Guid(0a486987d748bd141a01b868cd3219b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926c2259e5e57eebe2b452eb76f08b76') in 0.020442 seconds
+  Import took 0.022127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Ambient_Occlusion.tga
+  artifactKey: Guid(0e32171aca09e5f42a8a2854a51c67c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Ambient_Occlusion.tga using Guid(0e32171aca09e5f42a8a2854a51c67c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96af2e458dc42af63dcf6af0d1c375fb') in 0.014750 seconds
+  Import took 0.016279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017682 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Diffuse.tga
+  artifactKey: Guid(9424b8ba63f39cb43b8eb7ec03ba446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Diffuse.tga using Guid(9424b8ba63f39cb43b8eb7ec03ba446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9969d1272f78e5f8318fe8621d72df') in 0.067240 seconds
+  Import took 0.068851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Height.tga
+  artifactKey: Guid(56b177093141dfa468442dbbc463b53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Height.tga using Guid(56b177093141dfa468442dbbc463b53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1fa709a07e851760e85dc5d33a7fbf') in 0.047422 seconds
+  Import took 0.048863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Specular.tga
+  artifactKey: Guid(5c7c1dc1339192445a321520b7b80679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Specular.tga using Guid(5c7c1dc1339192445a321520b7b80679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320952db48801c79ca143238226f5dcc') in 0.016341 seconds
+  Import took 0.017780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Normal.tga
+  artifactKey: Guid(cf73e7cda65a3a147bade0b1f1cdc041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_26/Dirt_26_Normal.tga using Guid(cf73e7cda65a3a147bade0b1f1cdc041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7bbaa68ebaa24658739000f5acdd41') in 0.018960 seconds
+  Import took 0.020471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160956 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_27/Dirt_27_Ambient_Occlusion.tga
+  artifactKey: Guid(18b3537461c960d4e96ed259dd785584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_27/Dirt_27_Ambient_Occlusion.tga using Guid(18b3537461c960d4e96ed259dd785584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1d8e2350dc12ec833933c7c3e77ae3') in 0.017565 seconds
+  Import took 0.019221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_27/Dirt_27_Diffuse.tga
+  artifactKey: Guid(f437d40f074da92498cc93f0b3ff4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_27/Dirt_27_Diffuse.tga using Guid(f437d40f074da92498cc93f0b3ff4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08f35a77eaaecb0a63be05e20a021d1') in 0.012516 seconds
+  Import took 0.014049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016112 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_27/Dirt_27_Height.tga
+  artifactKey: Guid(c80b7f77aa9acce4abd57dcc702fded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_27/Dirt_27_Height.tga using Guid(c80b7f77aa9acce4abd57dcc702fded4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8ad05297f6355eb9fc8c852199015c') in 0.014303 seconds
+  Import took 0.015925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_27/Dirt_27_Normal.tga
+  artifactKey: Guid(72b8668f0c9253b458baa232bba78296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR Ground Materials #1 [Dirt& Grass]/Textures/Dirt_27/Dirt_27_Normal.tga using Guid(72b8668f0c9253b458baa232bba78296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a5b9b4130678fb781adc27dab4b9d') in 0.052255 seconds
+  Import took 0.053771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.237527 seconds.
+  path: Assets/Scripts/PauseGame.cs
+  artifactKey: Guid(135be095ab6fe0a4db373dc9e245bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PauseGame.cs using Guid(135be095ab6fe0a4db373dc9e245bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023339645c9930dca9f9d40d8d109640') in 0.019880 seconds
+  Import took 0.022364 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000702 seconds.
+Registered in 0.000677 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
+- Completed reload, in  0.659 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.5 MB.
+System memory in use before: 75.1 MB.
+System memory in use after: 75.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.377300 ms (FindLiveObjects: 0.115400 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.181200 ms  DeleteObjects: 0.047800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 1.378100 ms (FindLiveObjects: 0.129300 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.161400 ms  DeleteObjects: 0.046700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 279.767714 seconds.
+  path: Assets/Scenes/The Ending.unity
+  artifactKey: Guid(72589c96d1ed6754bb9489e54f83d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/The Ending.unity using Guid(72589c96d1ed6754bb9489e54f83d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b19d80d231cdbcb1431434ca3afd87') in 0.011485 seconds
+  Import took 0.013176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.457549 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(948732a5143797e49b2a4f781b08f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(948732a5143797e49b2a4f781b08f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60089bce2018e6e25d3fe26e9d0328f1') in 0.012936 seconds
+  Import took 0.014848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(948732a5143797e49b2a4f781b08f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(948732a5143797e49b2a4f781b08f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60089bce2018e6e25d3fe26e9d0328f1') in 0.005800 seconds
+  Import took 0.007411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.676278 seconds.
+  path: Assets/Scripts/ReturnToMain.cs
+  artifactKey: Guid(ed3d4594728b91b49b3ff06ce5c48b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ReturnToMain.cs using Guid(ed3d4594728b91b49b3ff06ce5c48b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426ee29097c494a2a9d22494d7ff4bef') in 0.002267 seconds
+  Import took 0.010857 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000736 seconds.
+Registered in 0.000734 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 1.390700 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.165200 ms  DeleteObjects: 0.049300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.628 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 1.808000 ms (FindLiveObjects: 0.138500 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.562000 ms  DeleteObjects: 0.065400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000738 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
+- Completed reload, in  0.631 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.5 MB.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1627.
-Total: 1.358200 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.132900 ms  DeleteObjects: 0.047900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 1.341200 ms (FindLiveObjects: 0.119700 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.140300 ms  DeleteObjects: 0.049100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 399.823798 seconds.
+  path: Assets/Scripts/ReturnToMain.cs
+  artifactKey: Guid(ed3d4594728b91b49b3ff06ce5c48b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ReturnToMain.cs using Guid(ed3d4594728b91b49b3ff06ce5c48b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cb09562425fcd18c25a5e55ff1287c') in 0.003515 seconds
+  Import took 0.005215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009576 seconds.
+  path: Assets/Scripts/SlimeBall.cs
+  artifactKey: Guid(b8337061b58116546b2e7f0bf6a8f12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SlimeBall.cs using Guid(b8337061b58116546b2e7f0bf6a8f12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a0cdeb679d988f61a162fbb003de2a') in 0.002383 seconds
+  Import took 0.004029 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000645 seconds.
+Registered in 0.000921 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
+- Completed reload, in  0.617 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.5 MB.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 1.437200 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.238000 ms  DeleteObjects: 0.044900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 1.545900 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.284700 ms  DeleteObjects: 0.054700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.617082 seconds.
+  path: Assets/Scripts/SlimeBall.cs
+  artifactKey: Guid(b8337061b58116546b2e7f0bf6a8f12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SlimeBall.cs using Guid(b8337061b58116546b2e7f0bf6a8f12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1df98bd0080e37881482120e58f6f1c') in 0.003699 seconds
+  Import took 0.005194 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000699 seconds.
+Registered in 0.000688 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
+- Completed reload, in  0.627 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.6 MB.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 1.511100 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.229700 ms  DeleteObjects: 0.054600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 1.329600 ms (FindLiveObjects: 0.117800 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.135000 ms  DeleteObjects: 0.046000 ms)
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

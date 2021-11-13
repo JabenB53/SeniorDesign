@@ -37,4 +37,17 @@ public static class SaveSystem
         }
     }
 
+    public static void DeleteProgress()
+    {
+        string filePath = Application.persistentDataPath + "/data.data"; // find a file at this location
+        if (File.Exists(filePath))
+        {
+            File.Delete(filePath);
+        }
+        else
+        {
+            Debug.LogError("Save file not found at " + filePath); //if there is no save data
+        }
+    }
+
 }
