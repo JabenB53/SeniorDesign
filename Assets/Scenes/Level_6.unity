@@ -883,7 +883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4651878091904572207, guid: 4799d53c73c824d478bafdb4219276fb, type: 3}
       propertyPath: distance
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4799d53c73c824d478bafdb4219276fb, type: 3}

@@ -459,6 +459,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2354763225476729357, guid: 536a5e509e21cbe4da8b94bce56f060d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 996e9e5308f05d24782bbd1c677ff598, type: 2}
     - target: {fileID: 2354763225476729358, guid: 536a5e509e21cbe4da8b94bce56f060d, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -690,6 +694,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2354763225476729357, guid: 536a5e509e21cbe4da8b94bce56f060d, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 996e9e5308f05d24782bbd1c677ff598, type: 2}
     - target: {fileID: 2354763225476729358, guid: 536a5e509e21cbe4da8b94bce56f060d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -860,6 +868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4626566884446411039, guid: 2d4259917be518244aa06455e935247b, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 996e9e5308f05d24782bbd1c677ff598, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4259917be518244aa06455e935247b, type: 3}
 --- !u!1001 &1274833072
@@ -1122,6 +1134,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4651878091904572200, guid: 4799d53c73c824d478bafdb4219276fb, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 996e9e5308f05d24782bbd1c677ff598, type: 2}
     - target: {fileID: 4651878091904572202, guid: 4799d53c73c824d478bafdb4219276fb, type: 3}
       propertyPath: m_Name
       value: Door
