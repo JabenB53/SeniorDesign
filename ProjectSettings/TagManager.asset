@@ -12,6 +12,7 @@ TagManager:
   - jumpText
   - LevelButton
   - PauseMenu
+  - SignDisplay
   layers:
   - Default
   - TransparentFX

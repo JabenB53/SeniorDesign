@@ -678,6 +678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6177313291315791217, guid: aac4f3832bdaa9542a4044eb5a2840c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aac4f3832bdaa9542a4044eb5a2840c1, type: 3}
 --- !u!1001 &864213900
@@ -1145,6 +1149,10 @@ PrefabInstance:
     - target: {fileID: 4567500492594772718, guid: a7f14e3dba753da48b5d55bde7a86652, type: 3}
       propertyPath: m_Name
       value: Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 4567500492594772721, guid: a7f14e3dba753da48b5d55bde7a86652, type: 3}
+      propertyPath: keys
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4567500492594772721, guid: a7f14e3dba753da48b5d55bde7a86652, type: 3}
       propertyPath: jumps

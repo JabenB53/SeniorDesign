@@ -482,6 +482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6177313291315791217, guid: aac4f3832bdaa9542a4044eb5a2840c1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aac4f3832bdaa9542a4044eb5a2840c1, type: 3}
 --- !u!1001 &535939982
@@ -722,6 +726,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7968253869272846170, guid: d7b68342dd1caab48943ef69c403efa8, type: 3}
+      propertyPath: message
+      value: Choose Wisely
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840063536774817289, guid: d7b68342dd1caab48943ef69c403efa8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7b68342dd1caab48943ef69c403efa8, type: 3}
 --- !u!1001 &963683910
@@ -737,7 +749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7409162671888961718, guid: d0e9afa7c25072e4a89f9f4854a5c846, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7409162671888961718, guid: d0e9afa7c25072e4a89f9f4854a5c846, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1197,7 +1209,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1398586829
 PrefabInstance:
