@@ -67,7 +67,7 @@ public class CharacterMovement : MonoBehaviour
     private void FixedUpdate()
     {
         transform.Translate(Vector3.right * Time.deltaTime * speed * XInput); // move the character left or right
-        //body.MovePosition(transform.position + Vector3.right * Time.deltaTime * speed * XInput); // move the character left or right
+        // maybe try out: body.MovePosition(transform.position + Vector3.right * Time.deltaTime * speed * XInput); // move the character left or right
     }
 
     void OnTriggerEnter(Collider other) // checks if the Player is touching certain objects
@@ -105,21 +105,4 @@ public class CharacterMovement : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // reload the level
         Time.timeScale = 1;
     }
-
-
-
-/*    if (Input.GetKey(KeyCode.W) && touchingLadder) // if the player presses 'W' AND is touching a ladder
-        {
-                body.useGravity = false; // disable gravity while climbing
-                if (body.velocity.y< 0) // if the Player is falling
-                    body.AddForce(Vector3.up* -body.velocity.y, ForceMode.Force); // counteract that force
-                transform.Translate(Vector3.up* Time.deltaTime* speed); // move them up
-        }
-
-        if (!touchingLadder || !(Input.GetKey(KeyCode.W))) // if the player is not touching a ladder OR they're not holding up
-            body.useGravity = true;
-
-        if ((body.velocity.y < 0) && !touchingLadder) // while the player is falling and not touching a ladder
-            body.velocity += Vector3.up * -10 * Time.deltaTime; // makes it fall faster
-*/
 }

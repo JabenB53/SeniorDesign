@@ -20,7 +20,8 @@ public class UnlockDoor : MonoBehaviour
         if (other.tag == "Player" && playerInfo.keys > 0)
         {
             playerInfo.keys--; // take one key from the Player
-            transform.Translate(Vector3.forward * distance); // open the door
+            //transform.Translate(Vector3.forward * distance); // open the door
+            Destroy(gameObject);
         }
     }
 }

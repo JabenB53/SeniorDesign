@@ -19,6 +19,6 @@ public class JumpDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        jumpText.text = "x" + playerInfo.jumps.ToString();
+        jumpText.text = "Jumps: " + playerInfo.jumps.ToString();
     }
 }

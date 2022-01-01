@@ -13,6 +13,7 @@ TagManager:
   - LevelButton
   - PauseMenu
   - SignDisplay
+  - door
   layers:
   - Default
   - TransparentFX
