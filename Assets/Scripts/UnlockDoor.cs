@@ -6,7 +6,7 @@ public class UnlockDoor : MonoBehaviour
 {
     private GameObject player; // reference to the player object
     private CharacterMovement playerInfo; // reference to the CharacterMovement Script
-    public float distance = 1.5f;
+    //public float distance = 1.5f;
     private Rigidbody door;
 
     // Start is called before the first frame update

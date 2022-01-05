@@ -15,7 +15,7 @@ public class SFXManager : MonoBehaviour
     public AudioSource slurp4;
     private bool keyReady = true;
     public AudioSource keyNoise;
-    private bool doorReady = true;
+    private bool doorReady = false;
     public AudioSource doorNoise;
 
     // Start is called before the first frame update
@@ -48,6 +48,8 @@ public class SFXManager : MonoBehaviour
                 }
             }
         }
+        if (playerInfo.keys > 0)
+            doorReady = true;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -81,7 +83,7 @@ public class SFXManager : MonoBehaviour
             keyNoise.Play(); // play the key noise
         }
 
-        if (other.tag == "door" && doorReady) // when the player touches a door
+        if (other.tag == "door" && doorReady) // when the player touches a door and has a key
         {
             doorReady = false;
             doorNoise.Play();
@@ -97,10 +99,6 @@ public class SFXManager : MonoBehaviour
         if (other.tag == "Key")
         {
             keyReady = true;
-        }
-        if (other.tag == "door")
-        {
-            doorReady = true;
         }
     }
 }
