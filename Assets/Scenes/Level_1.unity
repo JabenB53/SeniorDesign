@@ -927,6 +927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sign
       objectReference: {fileID: 0}
+    - target: {fileID: 4323146698487527756, guid: d7b68342dd1caab48943ef69c403efa8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7bcea33d8358742a29dcdc6b8bfb616c, type: 2}
     - target: {fileID: 4323146698487527758, guid: d7b68342dd1caab48943ef69c403efa8, type: 3}
       propertyPath: m_RootOrder
       value: 5

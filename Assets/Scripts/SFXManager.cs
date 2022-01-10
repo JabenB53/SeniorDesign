@@ -75,6 +75,7 @@ public class SFXManager : MonoBehaviour
                 default:
                     break;
             }
+            slurpReady = true;
         }
 
         if (other.tag == "Key" && keyReady) // when the player touches a key
