@@ -4,7 +4,6 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
-
     public static void SaveProgress(int level)
     {
         GameData data = new GameData(level); // create a GameData object to store the level number
@@ -49,5 +48,4 @@ public static class SaveSystem
             Debug.LogError("Save file not found at " + filePath); //if there is no save data
         }
     }
-
 }

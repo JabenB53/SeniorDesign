@@ -39,7 +39,6 @@ public class MainMenu : MonoBehaviour
         returnToMainButton.GetComponent<Button>().onClick.AddListener(ReturnToMain); // when the "Return" button is pressed
     }
 
-
     void StartTheGame()
     {
         SceneManager.LoadScene(1); // Load the first level
@@ -91,6 +90,5 @@ public class MainMenu : MonoBehaviour
         mainMenu.SetActive(true); // activate the main menu again
         levelSelectMenu.SetActive(false); // deactivate and hide the level select menu
     }
-
 
 }

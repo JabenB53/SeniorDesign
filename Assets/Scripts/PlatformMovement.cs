@@ -15,7 +15,6 @@ public class PlatformMovement : MonoBehaviour
     public float startUpDelay = 1; // how long after the firstContact the platform should start moving
     public float pauseDelay = 1;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +41,6 @@ public class PlatformMovement : MonoBehaviour
                 direction = false; // set movement toward pointA
             }
 
-
             if (direction)
             {
                 transform.position = Vector3.MoveTowards(transform.position, pointB, (speed * Time.deltaTime)); // move toward point B
@@ -51,8 +49,7 @@ public class PlatformMovement : MonoBehaviour
             {
                 transform.position = Vector3.MoveTowards(transform.position, pointA, (speed * Time.deltaTime)); // move toward point A
             }
-        }
-        
+        } 
     }
     void OnTriggerEnter(Collider other)
     {
